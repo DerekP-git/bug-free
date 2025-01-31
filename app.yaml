@@ -1,4 +1,4 @@
-runtime: python310  # Specifies the Python runtime environment (use the appropriate version)
+runtime: python3  # Specifies the Python runtime environment (use the appropriate version)
 
 entrypoint: gunicorn -b :$PORT app:app  # Starts the Flask app using Gunicorn
 
